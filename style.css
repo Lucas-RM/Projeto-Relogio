@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(70, 142, 236);
+    font: normal 15pt 'Poppins';
+    text-align: center;
+}
+
+header{
+    color: white;
+    margin: 20px 0;
+}
+
+section{
+    margin: auto;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 80%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.465);
+}
+
+
+#msg-periodo{
+    font-size: 21pt;
+    margin-bottom: 10px;
+}
+
+#horario{
+    display: flex;
+    justify-content: center;
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
+footer{
+    font-size: 20px;
+    color: white;
+}
+
+
+@media (max-width: 320px) {
+    header h1 {font-size: medium;}
+
+    h1 {font-size: x-small;}
+
+    #msg-periodo{font-size: medium;}
+}
+
+@media (max-width: 450px) {
+    #msg-periodo{font-size: 18pt;}
+    
+    #horario{
+        font-size: 15pt;
+        flex-wrap: wrap;
+    }
+
+    #periodo {display: flex;}
+
+    #img {width: 90%;}
+
+    footer{font-size: 15px;}    
+}

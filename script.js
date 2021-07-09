@@ -16,7 +16,7 @@ function carregar() {
         document.body.style.background = '#e2cd9f'
     } else if (hora < 18) {
         msg.innerHTML = `<h1>Boa Tarde!!!</h1>`
-        img.src = 'img/tarde.png'
+        img.src = 'img/Tarde.png'
         document.body.style.background = '#c27e6d'
     } else {
         msg.innerHTML = `<h1>Boa Noite!!!</h1>`
